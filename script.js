@@ -91,7 +91,7 @@ const products = [
   // Loop forEach () over products array
   products.forEach(
     ({name, id, price, category}) => {
-      
+        dessertCards.innerHTML+=``;
     }
     
   );

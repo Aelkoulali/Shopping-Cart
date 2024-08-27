@@ -101,3 +101,17 @@ h1 {
 .product-category {
   margin: 10px 0;
 }
+
+@media (min-width: 768px) {
+  #dessert-card-container {
+    flex-direction: row;
+  }
+
+  .dessert-card {
+    flex: 1 0 21%;
+  }
+
+  #cart-container {
+    width: 300px;
+  }
+}

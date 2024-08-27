@@ -113,5 +113,6 @@ class ShoppingCart {
 
     addItem(id, products) {
         const product = products.find(item => item.id === id); //id property of item === id parameter passed to addItem
+        const {name, price} = product;
     }
 };

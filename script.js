@@ -88,8 +88,8 @@ const products = [
     },
   ];
 
-  // Loop forEach () over products array
-  products.forEach(
+// Loop forEach () over products array
+products.forEach(
     ({name, id, price, category}) => {
         dessertCards.innerHTML+= 
         `
@@ -101,6 +101,7 @@ const products = [
         </div>
         `;
     }
-    
-  );
+);
   
+// Declare ShoppingCar class 
+class ShoppingCart {};

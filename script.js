@@ -104,4 +104,8 @@ products.forEach(
 );
   
 // Declare ShoppingCar class 
-class ShoppingCart {};
+class ShoppingCart {
+    constructor(){
+        
+    }
+};

@@ -88,4 +88,11 @@ const products = [
     },
   ];
 
+  // Loop forEach () over products array
+  products.forEach(
+    () => {
+      
+    }
+    
+  );
   

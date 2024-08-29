@@ -134,6 +134,11 @@ class ShoppingCart {
 getCounts(){
   return this.items.length;
   }
+// Clear cart
+clearCart(){
+  
+}
+
 // calculate the total of taxes
 calculateTaxes(amount){
   return parseFloat(((this.taxRate / 100) * amount).toFixed(2));

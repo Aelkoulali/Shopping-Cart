@@ -141,6 +141,10 @@ clearCart(){
     return; // to stop the execution
   }
   const isCartCleared = confirm("Are you sure you want to clear all items from your shopping cart?");
+  if(isCartCleared){
+    this.items = [];
+    this.total = 0;
+  }
 
 }
 

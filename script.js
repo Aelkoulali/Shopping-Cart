@@ -130,7 +130,13 @@ class ShoppingCart {
         `;
     }
     
-};
+}
+
+// Access the total number of items in the car
+getCounts() ;
+  return this.items.length;
+ 
+
 
 const cart = new ShoppingCart();
 const addToCartBtns = document.getElementsByClassName("add-to-cart-btn");
@@ -144,3 +150,4 @@ cartBtn.addEventListener("click", () =>{
   showHideCartSpan.textContent = isCartShowing ? "Hide" : "Show";
   cartContainer.style.display = isCartShowing ? "block" : "none";
 });
+

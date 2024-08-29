@@ -182,10 +182,12 @@ const addToCartBtns = document.getElementsByClassName("add-to-cart-btn");
  }
 );
 
-// Display cart
+// cartBtn event
 cartBtn.addEventListener("click", () =>{
   isCartShowing = !isCartShowing;
   showHideCartSpan.textContent = isCartShowing ? "Hide" : "Show";
   cartContainer.style.display = isCartShowing ? "block" : "none";
 });
 
+// clearCartBtn event
+clearCartBtn.addEventListener("click", cart.clearCart.bind(cart));

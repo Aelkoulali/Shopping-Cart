@@ -130,12 +130,14 @@ class ShoppingCart {
         `;
     }
 
-// Access the total number of items in the car
+// Access the total number of items in the cart
 getCounts(){
   return this.items.length;
   }
 
-  
+// Calculate total price of the cart 
+
+
 };
 
 // Add item to cart

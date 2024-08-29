@@ -134,6 +134,10 @@ class ShoppingCart {
 getCounts(){
   return this.items.length;
   }
+// calculate the total of taxes
+calculateTaxes(amount){
+
+}
 
 // Calculate total price of the cart 
 calculateTotal(){

@@ -136,7 +136,9 @@ getCounts(){
   }
 
 // Calculate total price of the cart 
-
+calculateTotal(){
+  const subTotal = this.items.reduce((total, item) => total + item.price,0); // initial value = 0
+}
 
 };
 

@@ -136,7 +136,11 @@ getCounts(){
   }
 // Clear cart
 clearCart(){
-  
+  if(!this.items.length){
+    alert("Your shopping cart is already empty");
+    return; // to stop the execution
+  }
+
 }
 
 // calculate the total of taxes

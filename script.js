@@ -136,7 +136,7 @@ getCounts(){
   }
 // calculate the total of taxes
 calculateTaxes(amount){
-  return ((this.taxRate / 100) * amount).toFixed(2);
+  return parseFloat(((this.taxRate / 100) * amount).toFixed(2));
 }
 
 // Calculate total price of the cart 

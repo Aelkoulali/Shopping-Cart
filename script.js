@@ -158,6 +158,7 @@ const addToCartBtns = document.getElementsByClassName("add-to-cart-btn");
 [...addToCartBtns].forEach((btn) => { btn.addEventListener("click", event => {
   cart.addItem(Number(event.target.id), products); // Number() convert String id to number
   totalNumberOfItems.textContent = cart.getCounts(); //update the total number of items 
+  cart.calculateTotal();
   })
  }
 );

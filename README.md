@@ -1,7 +1,7 @@
 # 🗂️ Shopping Cart 🛒
 ## ➡️ Key Concepts : 
-## ✅ define classes and use them
-## ✅ implement methods for data manipulation
-## ✅ ternary operator
-## ✅ spread operator
-## ✅ this keyword
+## ✅ Define classes and use them
+## ✅ Implement methods for data manipulation
+## ✅ Ternary operator
+## ✅ Spread operator
+## ✅ This keyword

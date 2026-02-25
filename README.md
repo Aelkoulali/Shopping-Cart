@@ -1,6 +1,6 @@
 # 🗂️ Shopping Cart 🛒
 ## ➡️ Key Concepts : 
-## ✅ Define classes and use them
+## ✅ JavaScript, HTML & CSS
 ## ✅ Implement methods for data manipulation
 ## ✅ Ternary operator
 ## ✅ Spread operator

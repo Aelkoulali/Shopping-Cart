@@ -7,26 +7,24 @@
 }
 
 :root {
-  --grey:#f6f2f2;
+  --grey: #f6f2f2;
   --black: #000000;
-  --navy:#1a2238;
-  --blue:#9DAAF2;
-  --Electric-Blue:#59CBE8;
-  --orange:#FF6A3D;
-  --yellow:#F4DB7D;
+  --navy: #1a2238;
+  --blue: #9daaf2;
+  --Electric-Blue: #59cbe8;
+  --orange: #ff6a3d;
+  --yellow: #f4db7d;
 }
 
 body {
   background-color: var(--navy);
-  font-family: 'Roboto';
-
+  font-family: "Roboto";
 }
 
 h1 {
   color: #f6f2f2;
   text-align: center;
   margin: 25px 0;
-
 }
 #dessert-card-container {
   display: flex;
